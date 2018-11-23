@@ -21,7 +21,7 @@
 	background-repeat: repeat-x;
 	background-size: cover;
 	animation-name: panorama-move;
-    animation-duration: 100s;
+	animation-duration: 100s;
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 }
@@ -32,7 +32,7 @@
 }
 
 .top-header {
-    background-color: rgb(198, 198, 198);
+	background-color: rgb(198, 198, 198);
 	padding-top: 8px;
 	height: 32px;
 	width: 100%;
@@ -79,7 +79,7 @@
 	outline: 2px solid rgb(0, 0, 0);
 	border: 2px solid;
 	background-color: rgb(94, 94, 94);
-    border-image: url("../../assets/img/search_border.png") 1;
+	border-image: url("../../assets/img/search_border.png") 1;
 }
 
 .searchbox:hover {
@@ -95,26 +95,21 @@
 	border: 2px solid;
 	margin: 4px 0px;
 	background-color: rgb(198, 198, 198);
-    border-image: url("../../assets/img/button_borderless_light.png") 1;
+	border-image: url("../../assets/img/button_borderless_light.png") 1;
 }
 
 .squarebutton:hover {
 	outline: 2px solid rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 	background-color: rgb(67, 160, 28);
-    border-image: url("../../assets/img/button_borderless_lighthover.png") 1;
+	border-image: url("../../assets/img/button_borderless_lighthover.png") 1;
 }
 
 .squarebutton:active {
 	outline: 2px solid rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 	background-color: rgb(67, 160, 28);
-    border-image: url("../../assets/img/button_borderless_lightpressed.png") 1;
-}
-
-.squarebutton:active {
-	background-color: rgb(139, 139, 139);
-    border-image: url("../../assets/img/button_borderless_lightpressednohover.png") 1;
+	border-image: url("../../assets/img/button_borderless_lightpressed.png") 1;
 }
 
 .border-gray {
@@ -130,11 +125,11 @@
 }
 
 .buttons {
-    float: left;
+	float: left;
 	position: absolute;
 	top: 124px;
-    width: calc(100% - 20px);
-    height: calc(100% - 150px);
+	width: calc(100% - 20px);
+	height: calc(100% - 150px);
 	overflow-y: auto;
 	overflow-x: hidden;
 }
